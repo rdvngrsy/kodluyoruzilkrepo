@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+  }
+  
+  h1 {
+    color: brown;
+  }
+  #introduction {
+    font-style: italic;
+    font-weight: bold;
+  }
+  #content {
+    margin: 2rem auto;
+    width: 50%;
+  }
+  #content div {
+    padding: 5px;
+  }
+  #title {
+    margin-left: 3rem;
+  }
+  .heading {
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    font-weight: bold;
+    border-radius: 1rem;
+  }
+  .info {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: underline;
+  }
+  .info > span {
+    color: brown;
+    font-weight: bold;
+  }
+  .Afiyet {
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 15rem;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+  }
+  @media (max-width:1100px) {
+    .Afiyet {
+      margin-right: 4rem;
+    }
+    #title {
+      margin-left: 1rem;
+    }
+  }
