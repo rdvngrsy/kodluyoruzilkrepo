@@ -1,0 +1,54 @@
+.tg  {
+    border-collapse:collapse; 
+    border-spacing: 1;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tg td{
+    width: 568px;
+    border-color:black;
+    /* border-style:solid; */
+    border-width:1px;
+    font-family:Arial, 
+}
+
+.tg thead{
+    background-color: #EEEE;
+}
+
+tbody{
+    display: block;
+    margin-top: 3px;
+}
+.tg .tg-0lax{
+    text-align:center;
+}
+
+div>img{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    text-align: center;
+}
+
+.acikMavi{
+    background-color: #7EE5DA;
+}
+
+.yarıKoyuMavi{
+    background-color: #70CCC2;
+}
+
+.koyuMavi{
+    background-color: #62B3AA;
+}
+
+.fontSizeSmall{
+    font-size: small;
+}
