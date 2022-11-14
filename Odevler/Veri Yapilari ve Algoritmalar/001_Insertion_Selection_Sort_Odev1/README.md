@@ -15,23 +15,24 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturd
 ***
 
 ### Cevaplar
-* **[22,27,16,2,18,6] -> Insertion Sort Aşamaları**
-        1. [22, 27, 16, 2, 18, 6]
-        2. [16, 22, 27, 2, 18, 6]
-        3. [2, 16, 22, 27, 18, 6]
-        4. [2, 16, 18, 22, 27, 6]
-        5. [2, 6, 16, 18, 22, 27]
+*   **[22,27,16,2,18,6] -> Insertion Sort Aşamaları**
+    1. [22, 27, 16, 2, 18, 6]
+    2. [16, 22, 27, 2, 18, 6]
+    3. [2, 16, 22, 27, 18, 6]
+    4. [2, 16, 18, 22, 27, 6]
+    5. [2, 6, 16, 18, 22, 27]
 * **[22,27,16,2,18,6] -> Insertion Sort Big-O gösterimi**
-        1.Big-O Gösterimi: O(n^2)
+    Big-O Gösterimi: O(n^2)
 * **[22,27,16,2,18,6] -> Insertion Sort Time Complexity**
-        18 sayısı sıralandıktan sonra orta kısımlarda bulunduğu için Avarage Case kapsamındadır.
+    18 sayısı sıralandıktan sonra orta kısımlarda bulunduğu için Avarage Case kapsamındadır.
 
 * **[7,3,5,8,2,9,4,15,6] -> Selection Sort Aşamaları**
-        1. [7, 3, 5, 8, 2, 9, 4, 15, 6]
-        2. [2, 3, 5, 8, 7, 9, 4, 15, 6]
-        3. [2, 3, 4, 8, 7, 9, 5, 15, 6]
-        4. [2, 3, 4, 5, 7, 9, 8, 15, 6]
+    1. [7, 3, 5, 8, 2, 9, 4, 15, 6]
+    2. [2, 3, 5, 8, 7, 9, 4, 15, 6]
+    3. [2, 3, 4, 8, 7, 9, 5, 15, 6]
+    4. [2, 3, 4, 5, 7, 9, 8, 15, 6]
 ***
+
 ### Insertion Short Code in JavaScript
 ```js
 function insertionSort(arr) {                           
