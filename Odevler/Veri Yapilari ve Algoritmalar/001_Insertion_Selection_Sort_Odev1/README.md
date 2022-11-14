@@ -2,7 +2,7 @@
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturduğumuz ilk repositories Veri Yapıları ve Algoritmalar uygulamalarında birinci örnek. 
 
-### İstenilen Ödev 
+## İstenilen Ödev 
 [22,27,16,2,18,6] -> Insertion Sort
 
 1) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
@@ -14,13 +14,13 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturd
 4) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 ***
 
-### Cevaplar
+## Cevaplar
 *  **[22,27,16,2,18,6] -> Insertion Sort Aşamaları**
-    1) [22, 27, 16, 2, 18, 6]
-    2) [16, 22, 27, 2, 18, 6]
-    3) [2, 16, 22, 27, 18, 6]
-    4) [2, 16, 18, 22, 27, 6]
-    5) [2, 6, 16, 18, 22, 27]
+    1. [22, 27, 16, 2, 18, 6]
+    2. [16, 22, 27, 2, 18, 6]
+    3. [2, 16, 22, 27, 18, 6]
+    4. [2, 16, 18, 22, 27, 6]
+    5. [2, 6, 16, 18, 22, 27]
 * **[22,27,16,2,18,6] -> Insertion Sort Big-O gösterimi**
 
     Big-O Gösterimi: O(n^2)
@@ -29,10 +29,10 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturd
     18 sayısı sıralandıktan sonra orta kısımlarda bulunduğu için Avarage Case kapsamındadır.
 
 * **[7,3,5,8,2,9,4,15,6] -> Selection Sort Aşamaları**
-    1) [7, 3, 5, 8, 2, 9, 4, 15, 6]
-    2) [2, 3, 5, 8, 7, 9, 4, 15, 6]
-    3) [2, 3, 4, 8, 7, 9, 5, 15, 6]
-    4) [2, 3, 4, 5, 7, 9, 8, 15, 6]
+    1. [7, 3, 5, 8, 2, 9, 4, 15, 6]
+    2. [2, 3, 5, 8, 7, 9, 4, 15, 6]
+    3. [2, 3, 4, 8, 7, 9, 5, 15, 6]
+    4. [2, 3, 4, 5, 7, 9, 8, 15, 6]
 ***
 
 ### Insertion Short Code in JavaScript
