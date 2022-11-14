@@ -35,7 +35,7 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturd
     4. [2, 3, 4, 5, 7, 9, 8, 15, 6]
 ***
 
-### Insertion Short Code in JavaScript
+### Insertion Sort Code in JavaScript
 ```js
 function insertionSort(arr) {                           
     for (let i = 1; i < arr.length; i++) {              
@@ -49,7 +49,7 @@ function insertionSort(arr) {
     return arr;
 }
 ```
-### Selection Short Code in JavaScript
+### Selection Sort Code in JavaScript
 ```js
 function selectionSort(inputArr) {          
     let n = inputArr.length;                

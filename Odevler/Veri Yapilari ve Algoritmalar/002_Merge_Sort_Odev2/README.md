@@ -25,7 +25,7 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturd
     Big-O Gösterimi: O(nlog(n))
 ***
 
-### Merge Short Code in JavaScript
+### Merge Sort Code in JavaScript
 ```js
 function merge(left, right) {
   let sortedArr = [] 
