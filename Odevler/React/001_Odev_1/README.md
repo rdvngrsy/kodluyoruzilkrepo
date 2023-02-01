@@ -14,4 +14,4 @@ Bu repo Kodluyoruz Front-End Eğitiminde oluşturduğumuz ilk repositories ve Re
 
 
 
-![github](/001_Odev_1/img/SS1.png)
+![github](img/SS1.png)
