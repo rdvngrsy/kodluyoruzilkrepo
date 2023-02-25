@@ -1,0 +1,62 @@
+body {
+  background-color: gold;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  width: 400px;
+  background-color:darkkhaki;
+  padding: 20px;
+}
+
+input{
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+ul,li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list{
+  margin: 15px 0;
+}
+
+.list>li{
+  background-color: yellow;
+  padding: 5px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2{
+  margin: 0px 0px 25px 0px;
+  color: darkblue;
+}
+
+.formInput{
+  margin-bottom: 5px;
+}
+
+.btn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn>button{
+  padding: 5px;
+  width: 60px;
+  background-color: yellow;
+}
+
