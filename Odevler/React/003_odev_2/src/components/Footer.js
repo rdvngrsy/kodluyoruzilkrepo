@@ -2,14 +2,17 @@ import React from 'react'
 
 function Footer({todos, filteredTodos, setTodos, status, setStatus }) {
 
+    // Listelemenin altındaki footer kısmını içeren kod bloğudur. ilk kısımda completed edilmemiş işlerden kaç adet kaldığını gösterir. Diğer kısım sadece sadece active işleri filtreler. Üçünücü kısım ise bitmiş işleri listeden temizler.
+
     const unCompleted = todos.filter((item) => item.completed === false);
     const completed = filteredTodos.filter((todo) => todo.completed === true);
   
+    // Bitem işleri filtreleyen fonksiyon.
     const clearCompleted = (e) => {
       e.preventDefault();
       setTodos(todos.filter((todo) => todo.completed === false));
     };
-  
+    
     const changeStatus = (e) => {
       setStatus(e.target.id);
     };

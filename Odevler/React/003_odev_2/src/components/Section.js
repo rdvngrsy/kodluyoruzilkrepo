@@ -2,6 +2,9 @@ import React from 'react'
 
 function Section({ todos, setTodos }) {
   return (
+
+    // Yapılacak işlerin listelendiği section kısmı. İşleri map fonksiyonu ile listeliyoruz. Completed edilen işlerin check edildiği kısımda burada yazılı.
+
     <section className="main">
 		<input className="toggle-all" type="checkbox" />
 		<label 

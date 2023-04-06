@@ -7,9 +7,13 @@ import './App.css';
 
 function App() {
 
+  // todos, status ve filteredTodos üzerinde bir değişiklik olduğunda setStatus Hook' u ile yapılacak değişiklikler tanımlandı.
+
   const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")));
   const [status, setStatus] = useState("");
   const [filteredTodos, setFilteredTodos] = useState([]);
+
+  // localStorage' verilerin mount edilmesi için gerekli kod bloğu.
 
   useEffect(() => {
     if (localStorage.getItem("todos") === null) {
@@ -19,6 +23,7 @@ function App() {
     }
   }, [])
 
+  // useEffect ile birlikte todos ve status üzerinde bir değişiklik oldu mu mount işlemini gerçekleştirecek kod.
 
   useEffect(() => {
     const filterHandler = () => {
