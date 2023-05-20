@@ -20,13 +20,13 @@ Bu örnekte günlük hava durumu bilgisi ve 3 günlük hava durum tahmini uygula
 
 ### 1) Projenin Genel Görünümü
 
-![github](/src/assets/genel_gorunum.png)
-![github](/src/assets/dropdown.png)
-![github](/src/assets/farkli_sehir.png)
+![github](./src/assets/genel_gorunum.png)
+![github](./src/assets/dropdown.png)
+![github](./src/assets/farkli_sehir.png)
 ### 2) Projenin Responsive Görünümü
-![github](/src/assets/responsive_1.png)
-![github](/src/assets/responsive_2.png)
-![github](/src/assets/responsive_3.png)
+![github](./src/assets/responsive_1.png)
+![github](./src/assets/responsive_2.png)
+![github](./src/assets/responsive_3.png)
 
 
 ### Uygun Scriptler
