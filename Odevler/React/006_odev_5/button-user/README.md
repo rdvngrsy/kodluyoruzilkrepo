@@ -33,7 +33,7 @@ export default App
 ```
 ## Buttons
 
-![github](./assets/example_buttons.png)
+![github](https://github.com/rdvngrsy/kodluyoruzilkrepo/blob/main/Odevler/React/006_odev_5/button-user/assets/example_buttons.png)
 
 
 ## License
