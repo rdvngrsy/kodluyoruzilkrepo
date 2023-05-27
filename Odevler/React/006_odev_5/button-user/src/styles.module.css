@@ -1,0 +1,241 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+.primary{
+  direction: initial;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .2s cubic-bezier(.645,.045,.355,1);
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.5714285714285714;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #1677ff;
+  box-shadow: 0 2px 0 rgba(5,145,255,.1);
+  margin-left: 8px;
+  margin-right: 8px;
+
+}
+
+.primary:hover{
+  background-color: cornflowerblue;
+  transform: scale(1.02);
+}
+.primary:active {
+  color: #fff;
+  background-color: #0958d9;
+  transform: scale(0.98);
+}
+.primary:focus-visible{
+  outline: 4px solid #91caff;
+  outline-offset: 1px;
+  transition: outline-offset 0s,outline 0s;
+}
+
+.default{
+  direction: initial;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .2s cubic-bezier(.645,.045,.355,1);
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.5714285714285714;
+  color: rgba(0,0,0,.88);
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  background-color: #fff;
+  border-color: #d9d9d9;
+  box-shadow: 0 2px 0 rgba(0,0,0,.02);
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.default:hover{
+  transform: scale(1.02);
+  color: #4096ff;
+  border-color: #4096ff;
+}
+
+.default:active{
+  color: #0958d9;
+  border-color: #0958d9;
+  transform: scale(0.98);
+}
+
+.default:focus-visible{
+  outline: 4px solid #ff0000;
+  outline-offset: 1px;
+  transition: outline-offset 0s,outline 0s;
+}
+
+.dashed{
+  direction: initial;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .2s cubic-bezier(.645,.045,.355,1);
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.5714285714285714;
+  color: rgba(0,0,0,.88);
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  background-color: #fff;
+  border-color: #d9d9d9;
+  box-shadow: 0 2px 0 rgba(0,0,0,.02);
+  border-style: dashed;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.dashed:hover{
+  transform: scale(1.02);
+  color: #4096ff;
+  border-color: #4096ff;
+}
+
+.dashed:active{
+  color: #0958d9;
+  border-color: #0958d9;
+  transform: scale(0.98);
+}
+
+.dashed:focus-visible{
+  outline: 4px solid #91caff;
+  outline-offset: 1px;
+  transition: outline-offset 0s,outline 0s;
+}
+
+.text{
+  direction: initial;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .2s cubic-bezier(.645,.045,.355,1);
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.5714285714285714;
+  color: rgba(0,0,0,.88);
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.text:hover{
+  transform: scale(1.02);
+  color: rgba(0,0,0,.88);
+  background-color: rgba(0,0,0,.06);
+}
+
+.text:active{
+  color: rgba(0,0,0,.88);
+  background-color: rgba(0,0,0,.15);
+  transform: scale(0.98);
+}
+
+.text:focus-visible{
+  outline: 4px solid #91caff;
+  outline-offset: 1px;
+  transition: outline-offset 0s,outline 0s;
+}
+
+.link{
+  direction: initial;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .2s cubic-bezier(.645,.045,.355,1);
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.5714285714285714;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  color: #1677ff;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.link:hover{
+  transform: scale(1.02);
+  color: #69b1ff;
+}
+
+.link:active{
+  color: #0958d9;
+  transform: scale(0.98);
+}
+
+.link:focus-visible{
+  outline: 4px solid #91caff;
+  outline-offset: 1px;
+  transition: outline-offset 0s,outline 0s;
+}
